@@ -1,0 +1,19 @@
+#wrapper {
+	width:900px;
+	margin:0px auto;
+	padding:10px;
+	background:#fff;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+}
+#content{
+	width:900px;
+	margin:0px auto;
+	background:#fff;
+	
+}
+#controls{
+	marigin:0px;
+	
+}

@@ -13,7 +13,26 @@
 	background:#fff;
 	
 }
-#controls{
-	marigin:0px;
+
+
+div.post{
+	border: 1px solid #000;
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	padding: 0px 10px 0px 5px;
+	margin: 0px 0px 30px 0px;
+}
+div.remaining{
+	padding: 5px 0px 5px 0px;
+}
+
+
+.form-horizontal .controls {
+	margin-left:100px;
 	
+}
+
+.form-horizontal .control-label {
+	width:80px;
 }

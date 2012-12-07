@@ -12,7 +12,21 @@ $results = $conn->query($sql);
 extract($_POST);
 ?>
 
-<?php while($blog = $results->fetch_assoc()):?>
-<h1><?php echo $blog ['post_title']?></h1>
-<p><?php echo $blog ['post_text']?></p>
-<?php endwhile; ?>
+<?php $post = $results->fetch_assoc()?>
+	
+	<div class="post">
+	<h2 class= ""><a title=<?php echo $post['post_title']?> href="./?p=public/post&amp;id=<?php echo $post['post_id']?>"><?php echo $post['post_title']?></a></h2>
+	<p class= ""><?php echo $post['post_text']?></p>
+	</div>
+	
+<?php while($post = $results->fetch_assoc()): ?>
+	<?php // make a timestamp
+	$time = strtotime($post['post_datepublished']);
+	$date = date('m / j / Y',$time);
+	?>
+	
+	<div class="remaining">
+	<h4><a title=<?php echo $post['post_title']?> href="./?p=public/post&amp;id=<?php echo $post['post_id']?>"><?php echo $post['post_title']?></a> <?php echo $date ?></h4>
+	</div>
+	
+<?php endwhile;?>

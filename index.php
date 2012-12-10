@@ -10,6 +10,7 @@ require('config/db.php');
 <!DOCTYPE html>
 <html>
 	<head>
+		<link href='http://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="styles.css" />
 		

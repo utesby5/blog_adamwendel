@@ -1,1 +1,1 @@
-<p>Copyright &copy; <?php echo date('Y') ?> Adam Wendel</p>
+<p class="footer">Copyright &copy; <?php echo date('Y') ?> Adam Wendel</p>

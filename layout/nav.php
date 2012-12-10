@@ -2,7 +2,7 @@
 	<div class="navbar-inner">
 		<div class="container">
 			<ul class="nav">
-				<li><a href="./?p=public/home">Home</a></li>
+				<li><a href="./?p=public/home"><img src="img/apple_logo.png" alt=""/>Home</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Admin</a>
 					<ul class="dropdown-menu">
@@ -14,4 +14,3 @@
 		</div>
 	</div>
 </div>
-<?php // http://www.veryicon.com/icon/png/Media/Apple%20TV/Apple%20Logo.png?>
